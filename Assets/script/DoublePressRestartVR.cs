@@ -6,17 +6,20 @@ using UnityEngine.SceneManagement;
 public class DoublePressRestartVR : MonoBehaviour
 {
     [Header("Configuración")]
-    public float maxDelay = 0.4f; // tiempo máximo entre presiones
+    [SerializeField] private float maxDelay = 0.4f;
 
     private float lastPressTime = -1f;
 
-    void Update()
+    private void Update()
     {
-        // Botón Y = control izquierdo en Meta/Oculus
-        if (OVRInput.GetDown(OVRInput.Button.Three))
+        // Botón Y del control izquierdo
+        if (OVRInput.GetDown(OVRInput.RawButton.Y))
         {
+            Debug.Log("Y presionado");
+
             if (Time.time - lastPressTime <= maxDelay)
             {
+                Debug.Log("Doble Y detectado - reiniciando escena");
                 RestartScene();
             }
 
@@ -24,7 +27,7 @@ public class DoublePressRestartVR : MonoBehaviour
         }
     }
 
-    void RestartScene()
+    private void RestartScene()
     {
         Scene currentScene = SceneManager.GetActiveScene();
         SceneManager.LoadScene(currentScene.buildIndex);
