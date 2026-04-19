@@ -606,7 +606,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 53066914}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -614,7 +614,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 136.7, y: -87}
+  m_AnchoredPosition: {x: 190, y: 88}
   m_SizeDelta: {x: 473.4, y: 138.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &53066916
@@ -637,7 +637,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Tomate Cherry
+  m_text: "Tomate Cherry Variedad desarrollada en Israel en los a\xF1os 70. Investigadores
+    lograron un tomate m\xE1s peque\xF1o, dulce y con mayor duraci\xF3n, ideal para
+    consumo fresco y exportaci\xF3n."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -664,8 +666,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 76.14
-  m_fontSizeBase: 76.14
+  m_fontSize: 50
+  m_fontSizeBase: 50
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -700,7 +702,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: -591.0773, y: 0, z: 182.26714, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -4383,7 +4385,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: acc175e6b3dab8242a07017002c88da0,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.16
+      value: 7.221
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: acc175e6b3dab8242a07017002c88da0,
         type: 3}
@@ -4393,7 +4395,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: acc175e6b3dab8242a07017002c88da0,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.62
+      value: 46.272
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: acc175e6b3dab8242a07017002c88da0,
         type: 3}
@@ -6324,37 +6326,37 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 48f9faea7629b8a4fac654af38077828,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.331
+      value: 7.065
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 48f9faea7629b8a4fac654af38077828,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.324
+      value: 0.183
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 48f9faea7629b8a4fac654af38077828,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1.941
+      value: 3.475
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 48f9faea7629b8a4fac654af38077828,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.6977842
+      value: 0.6033119
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 48f9faea7629b8a4fac654af38077828,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.71323735
+      value: -0.61550444
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 48f9faea7629b8a4fac654af38077828,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.046333436
+      value: 0.36332983
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 48f9faea7629b8a4fac654af38077828,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.04735954
+      value: 0.35378033
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 48f9faea7629b8a4fac654af38077828,
         type: 3}
@@ -6369,7 +6371,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 48f9faea7629b8a4fac654af38077828,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: 68.54
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 48f9faea7629b8a4fac654af38077828,
         type: 3}
@@ -7650,8 +7652,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 95}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: 209.9, y: 290.6}
+  m_SizeDelta: {x: 619.8, y: 441.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &845719446
 MonoBehaviour:
@@ -7673,7 +7675,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Dron
+  m_text: "Dron: Israel es pionero en el desarrollo de drones desde los a\xF1os 80"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -7700,8 +7702,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 60
-  m_fontSizeBase: 60
+  m_fontSize: 80
+  m_fontSizeBase: 80
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -8590,22 +8592,22 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 1c33bbb0c02970e429cffc6ef29061bb,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8.336
+      value: -16.960945
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1c33bbb0c02970e429cffc6ef29061bb,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.90400004
+      value: 0.978
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1c33bbb0c02970e429cffc6ef29061bb,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 15.482
+      value: 12.963498
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1c33bbb0c02970e429cffc6ef29061bb,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.99780273
+      value: 0.64815444
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1c33bbb0c02970e429cffc6ef29061bb,
         type: 3}
@@ -8615,7 +8617,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 1c33bbb0c02970e429cffc6ef29061bb,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.066254914
+      value: 0.76150894
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1c33bbb0c02970e429cffc6ef29061bb,
         type: 3}
@@ -8630,7 +8632,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 1c33bbb0c02970e429cffc6ef29061bb,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -7.598
+      value: 99.195
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1c33bbb0c02970e429cffc6ef29061bb,
         type: 3}
@@ -9429,7 +9431,7 @@ Transform:
   m_GameObject: {fileID: 1019326797}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.953175, y: 0.56888366, z: 18.207561}
+  m_LocalPosition: {x: -11.251, y: -0.026, z: -9.474}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -10160,7 +10162,7 @@ Canvas:
   serializedVersion: 3
   m_RenderMode: 2
   m_Camera: {fileID: 0}
-  m_PlaneDistance: 100
+  m_PlaneDistance: 60
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
   m_OverrideSorting: 0
@@ -10180,7 +10182,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1094490348}
   m_LocalRotation: {x: -0, y: -0.58164805, z: -0, w: 0.8134405}
-  m_LocalPosition: {x: 0, y: 0, z: 0.6399998}
+  m_LocalPosition: {x: 0, y: 0, z: -4.55}
   m_LocalScale: {x: 0.010000001, y: 0.010000001, z: 0.010000001}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -10189,7 +10191,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: -71.133, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0.1399992, y: 7.9200006}
+  m_AnchoredPosition: {x: -1.85, y: 5.38}
   m_SizeDelta: {x: 900.49994, y: 608.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1096043904
@@ -10466,17 +10468,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1124732203}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: 0.2655763, z: 0.000000031664964, w: 0.9640898}
+  m_LocalPosition: {x: 0, y: 0, z: -99.7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1886528247}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 30.802, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 136.7, y: -87}
-  m_SizeDelta: {x: 473.4, y: 138.2}
+  m_AnchoredPosition: {x: 304.3, y: 232}
+  m_SizeDelta: {x: 863, y: 138.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1124732205
 MonoBehaviour:
@@ -10498,7 +10500,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Mouse
+  m_text: "Mouse Optico: Tecnolog\xEDa clave desarrollada por la empresa israel\xED
+    M-Systems en los a\xF1os 90."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -11058,8 +11061,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 136.7, y: -87}
-  m_SizeDelta: {x: 473.4, y: 138.2}
+  m_AnchoredPosition: {x: 36.8, y: 186.5}
+  m_SizeDelta: {x: 673.2, y: 345.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1206107626
 MonoBehaviour:
@@ -11081,7 +11084,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: PillCam
+  m_text: "PillCam: C\xE1psula con c\xE1mara desarrollada en Israel que se ingiere
+    como una pastilla."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -11215,7 +11219,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1230394884}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -11223,8 +11227,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 136.7, y: -87}
-  m_SizeDelta: {x: 473.4, y: 138.2}
+  m_AnchoredPosition: {x: 283.7, y: 44.8}
+  m_SizeDelta: {x: 767.3, y: 401.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1230394886
 MonoBehaviour:
@@ -11246,7 +11250,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Pendrive
+  m_text: "Pendrive: Inventado por la empresa israel\xED M-Systems a fines de los
+    90. "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -14005,17 +14010,17 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: c99ea114fbf90374eade4e2c0c79acac,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -9.7378
+      value: -19.024
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c99ea114fbf90374eade4e2c0c79acac,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.40161
+      value: 0.345
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c99ea114fbf90374eade4e2c0c79acac,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 13.432
+      value: 26.196
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c99ea114fbf90374eade4e2c0c79acac,
         type: 3}
@@ -15649,18 +15654,18 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1723125090}
-  m_LocalRotation: {x: -0, y: -0.30090412, z: -0, w: 0.9536544}
-  m_LocalPosition: {x: 0, y: 0, z: 1.72}
+  m_LocalRotation: {x: -0, y: -0.99086857, z: -0, w: -0.13483183}
+  m_LocalPosition: {x: 0, y: 0, z: 1.812}
   m_LocalScale: {x: 0.010000001, y: 0.010000001, z: 0.010000001}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1206107625}
   m_Father: {fileID: 909143803}
-  m_LocalEulerAnglesHint: {x: 0, y: -35.024, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -195.498, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -0.62, y: 2.9200068}
-  m_SizeDelta: {x: 900.49994, y: 608.5}
+  m_AnchoredPosition: {x: -0.288, y: 3.329}
+  m_SizeDelta: {x: 969.318, y: 690.386}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1725293338
 GameObject:
